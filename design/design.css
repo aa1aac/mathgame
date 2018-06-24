@@ -18,19 +18,41 @@ header{
 }
 .wrapper{
     margin-top:10px;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:15%;
+    margin-right:15%;
     border:1px solid orangered;
     text-align: center;
     text-transform: uppercase;
     background-color:black;
-     
+    padding: 15px;
 }
 .provideqn{
     margin-top:100px;
     font-size:50px;
 }
-num1,num2{
+.num1,.num2{
+    padding: 5px;
+    border-radius: 3px;
     background-color:whitesmoke;
     color:black; 
+}
+.options{
+ font-size:30px;
+}
+.opt1:hover{
+    color:white;
+    background-color: black;
+    transition: all linear fade 0.2s;
+
+}
+ .opt2:hover{
+     color:white;
+    background-color:black; 
+
+transition: all linear fade 0.2s;
+}
+.opt3:hover{
+    color:white;
+    background-color:black; 
+    transition: all linear fade 0.2s;
 }
