@@ -56,3 +56,9 @@ transition: all linear fade 0.2s;
     background-color:black; 
     transition: all linear fade 0.2s;
 }
+.num{
+    padding: 5px;
+    border-radius: 3px;
+    background-color:whitesmoke;
+    color:black; 
+}
