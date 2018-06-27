@@ -12,6 +12,9 @@ function getOpt(){
     var opt3=num1*num2;
     
     // show options
+    document.querySelector('.opt1').textContent=opt1;
+    document.querySelector('.opt2').textContent=opt2;
+    document.querySelector('.opt3').textContent=opt3;
 }
 function gameStart (){
 // get a random number
@@ -29,7 +32,6 @@ var num2=Math.floor(Math.random()*10);
      
 //  })
 }
-
 
 
 
