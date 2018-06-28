@@ -1,8 +1,7 @@
 
 gameStart();
 var object={
-    num:[],
-    options:[]
+    correctAns:[]
 }
 function getOpt(){
     num1=parseInt(document.querySelector('.num1').textContent);
@@ -10,7 +9,7 @@ function getOpt(){
     var opt1=Math.floor(Math.random()*10);
     var opt2=Math.floor(Math.random()*10);
     var opt3=num1*num2;
-    
+    object.correctAns.push(opt3);
     // show options
     document.querySelector('.opt1').textContent=opt1;
     document.querySelector('.opt2').textContent=opt2;
@@ -28,6 +27,11 @@ var num2=Math.floor(Math.random()*10);
  getOpt(num1,num2);
 
  //add event listener
+ document.querySelector('.num').addEventListener('click',function(){
+     if(this.textContent==correctAns){
+         console.log('congratulation')
+     }
+ })
 //  document.querySelector('opt1').addEventListener('click',function(){
      
 //  })
