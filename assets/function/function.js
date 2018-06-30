@@ -22,19 +22,12 @@ var num2=Math.floor(Math.random()*10);
  document.querySelector('.opt3').textContent=num1*num2;
 
  //add event listener
- document.querySelector('.num').addEventListener('click',function(){
-     if(this.textContent==num1*num2){
-         alert('you made it right');
-         gameStart();
+ document.querySelector('.opt3').addEventListener('click',function(){
+    gameStart();
+    console.log('you won');
+ }
 
-     }
-     else{
-         alert('you made it wrong');
-         gameStart();
-     }
-
-
- })
+)
 }
 
 
