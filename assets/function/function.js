@@ -22,11 +22,14 @@ var num2=Math.floor(Math.random()*10);
     gameStart();
  })
  document.querySelector('.opt1').addEventListener('click',function(){
-  alert('Sorry Wrong');
+  document.querySelector('.show').textContent="Sorry Wrong"
+  setTimeout(window.location.href = window.location.pathname + window.location.search + window.location.hash,800);
   
+
  })
 document.querySelector('.opt2').addEventListener('click',function(){
-  alert('Sorry Wrong');
+  document.querySelector('.show').textContent="Sorry Wrong"
+  setTimeout(window.location.href = window.location.pathname + window.location.search + window.location.hash,800);
   
  })
 }
